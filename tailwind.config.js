@@ -22,7 +22,7 @@ module.exports = {
         },
         secondary: {
           white: "#9f9292",
-          red: "#e02a2a",
+          red: "rgb(239,68,68)",
         },
       },
     },
