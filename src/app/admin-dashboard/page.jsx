@@ -9,7 +9,7 @@ import { FaSearch } from "react-icons/fa";
 
 const Page = () => {
   const [universities, setUniversities] = useState([]);
-  const [loading, setLoading] = useState(true); // Add loading state
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios

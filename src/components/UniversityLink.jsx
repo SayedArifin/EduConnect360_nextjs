@@ -15,7 +15,6 @@ const UniversityLink = ({ u_id, u_name, u_website }) => {
           <p className="text-secondary-white font-sm">{u_website}/</p>
         </div>
         <div class="flex mt-2">
-          <SecondaryButton href={"/"} text={<FaEdit />} />
           <SecondaryButton href={"/"} text={<FaTrash />} />
         </div>
       </Suspense>
